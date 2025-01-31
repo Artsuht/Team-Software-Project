@@ -29,6 +29,7 @@ main_menu_background = pygame.Rect(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)
 menu_play_button = text_font.render('Play', False, (0, 0, 0))
 menu_exit_button =  text_font.render ('Exit', False, (0, 0, 0))
 
+
 #Defining the range in which the mouse position must be to click a menu button.
 MENU_BUTTON_X_BEG = 580
 MENU_BUTTON_X_END = 720
@@ -47,7 +48,6 @@ with open('Word Set.txt', 'r') as word_set:
 
 #Use to transition between main menu and game screen
 in_menu = True
-back_is_rendered = False
 
 pygame.draw.rect(game_screen, (255, 255, 255), main_menu_background)
 pygame.Surface.blit(game_screen, title_image, (TITLE_ORIGIN, 0))
