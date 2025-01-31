@@ -1,6 +1,9 @@
 import pygame
 import os
 
+#To-Do:
+#Wrap code inside of functions for modularity
+
 pygame.init()
 
 #Screen initialization...
@@ -67,7 +70,7 @@ while game_running:
         elif event.type == pygame.MOUSEBUTTONDOWN:
             x, y = pygame.mouse.get_pos()
 
-            if x >= MENU_BUTTON_X_BEG and x <= MENU_BUTTON_X_END and y >= PLAY_BUTTON_Y_BEG and y <= PLAY_BUTTON_Y_END and in_menu: #Janky button press detection for Play button
+            if x >= MENU_BUTTON_X_BEG and x <= MENU_BUTTON_X_END and y >= PLAY_BUTTON_Y_BEG and y <= PLAY_BUTTON_Y_END and in_menu: #Janky button press detection for Play button, use Rect.collidepoint instead
 
              pygame.Surface.blit(game_screen, game_background_image, (0, 0))
 
