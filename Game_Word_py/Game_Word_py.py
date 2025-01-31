@@ -1,5 +1,3 @@
-from asyncio.windows_events import NULL
-from winsound import PlaySound
 import pygame
 import os
 
@@ -20,7 +18,7 @@ game_background_image = pygame.transform.scale(pygame.image.load(os.path.join('B
                                                              (SCREEN_WIDTH, SCREEN_HEIGHT))
 title_image = pygame.transform.scale(pygame.image.load(os.path.join('Title.png')), 
                                                                        (473, 70))
-TITLE_ORIGIN  = 640 - (473 / 2)
+TITLE_ORIGIN  = 640 - (473 / 2) #Position Title based on centrepoint, not leftmost point
 
 main_menu_background = pygame.Rect(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)
 
@@ -34,7 +32,7 @@ with open('Word Set.txt', 'r') as word_set:
  for word in word_set:
     dictionary.append(word.strip())
 
-#Menu
+#Use to transition between main menu and game screen
 in_menu = True
 
 #Game loop
