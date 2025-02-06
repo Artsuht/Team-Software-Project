@@ -6,7 +6,7 @@ import os
 
 pygame.init()
 
-#Screen initialization...
+#Screen initialization...b 
 SCREEN_WIDTH = 1280
 SCREEN_HEIGHT = 720
 
@@ -17,13 +17,15 @@ game_screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption("Word Game")
 
 #Load background image from local path/rescale
-game_background_image = pygame.transform.scale(pygame.image.load(os.path.join('Background.png')), 
+game_background_image = pygame.transform.scale(pygame.image.load(os.path.join('Background.png')),
                                                              (SCREEN_WIDTH, SCREEN_HEIGHT))
 title_image = pygame.transform.scale(pygame.image.load(os.path.join('Title.png')), 
                                                                        (473, 70))
 TITLE_ORIGIN  = 640 - (473 / 2) #Position Title based on centrepoint, not leftmost point
 
-main_menu_background = pygame.Rect(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)
+main_menu_background = pygame.transform.scale(pygame.image.load(os.path.join('Background.png')), 
+                                                            (SCREEN_WIDTH, SCREEN_HEIGHT))
+
 
 #Menu Buttons
 menu_play_button = text_font.render('Play', False, (0, 0, 0))
@@ -49,7 +51,7 @@ with open('Word Set.txt', 'r') as word_set:
 #Use to transition between main menu and game screen
 in_menu = True
 
-pygame.draw.rect(game_screen, (255, 255, 255), main_menu_background)
+pygame.Surface.blit(game_screen, main_menu_background, (0, 0))
 pygame.Surface.blit(game_screen, title_image, (TITLE_ORIGIN, 0))
          
 game_screen.blit(menu_play_button, (MENU_BUTTON_X_BEG, PLAY_BUTTON_Y_BEG))
@@ -57,7 +59,6 @@ game_screen.blit(menu_exit_button, (MENU_BUTTON_X_BEG, EXIT_BUTTON_Y_BEG))
 
 
 #Game loop
-
 game_running = True
 while game_running:
 
