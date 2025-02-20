@@ -42,6 +42,10 @@ with open("word set.txt", "r") as file:
 current_word = random.choice(words).lower()
 guessed_letters = set()
 lives=5 #track player errorsy
+hangman_images=[pygame.transform.scale(pygame.image.load(f"{i}.png").convert_alpha(), (800, 700)) for i in range(9)] #define hangman image and its size
+
+current_image_index=8 # keep track of current hangman image
+
 font = pygame.font.SysFont("arial", 46, bold=True)
 
 
@@ -95,6 +99,8 @@ while running:
                     GAME_STATE = "GAME"
                     guessed_letters.clear()
                     current_word = random.choice(words).lower()
+                    lives=min(8, len(current_word)-1 if len(current_word)>1 else 1)
+                    current_image_index = 8 #starts with png 8(first image)
                 elif quit_button.check_click(mouse_pos):
                     running = False
         elif event.type == pygame.KEYDOWN and GAME_STATE == "GAME":
@@ -102,6 +108,7 @@ while running:
                 letter = chr(event.key)
                 if letter not in guessed_letters and letter not in current_word:
                     lives -= 1
+                    current_image_index = max(0, int((lives/max(1, min(8, len(current_word)-1)))*8))
                     if lives<=0:
                         GAME_STATE = "GAME_OVER"
                 guessed_letters.add(letter)
@@ -126,6 +133,7 @@ while running:
                 screen.blit(letter_surface, letter_rect)
         lives_surface = font.render(f"Lives: {lives}", True, (0, 0, 0))
         screen.blit(lives_surface, (10, 10))
+        screen.blit(hangman_images[current_image_index], (WINDOW_WIDTH - 750, WINDOW_HEIGHT // 2 - 412))#positioning of the hangman image
     elif GAME_STATE == "GAME_OVER":
         screen.blit(game_background, (0, 0))
         game_over_surface = font.render("Pack it up buddy, you're cooked", True, (0, 0, 0))
