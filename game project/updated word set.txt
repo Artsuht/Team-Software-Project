@@ -1,0 +1,399 @@
+cat:a furry pet
+dog:a barking friend
+hat:you wear it
+sun:hot in the sky
+run:go fast
+mum:your mummy
+dad:your daddy
+yes:means okay
+no:means stop
+car:a fast ride
+bus:a big ride
+red:a bright colour
+blue:a sky colour
+see:use your eyes
+eat:chew food
+fun:you like it
+toy:you play with
+bed:you sleep here
+zoo:animals live here
+cow:says moo
+pig:says oink
+duck:says quack
+fish:swims fast
+bird:flies high
+tree:grows tall
+leaf:green on trees
+ball:you kick it
+book:you read it
+pen:you write with
+cup:you drink from
+box:holds stuff
+bag:carries things
+hot:feels warm
+cold:feels chilly
+big:not small
+little:very tiny
+me:its you
+you:its them
+we:us together
+he:a boy
+she:a girl
+it:a thing
+go:move now
+stop:dont move
+up:high place
+down:low place
+in:inside it
+out:outside it
+on:top of
+off:not on
+one:just 1
+two:1 and 1
+three:1 plus 2
+four:2 plus 2
+five:fingers on hand
+hi:hallo there
+bye:ta-ta for now
+day:sun is up
+night:moon is up
+sky:above us
+rain:wet drops
+snow:cold flakes
+wind:blows air
+star:shines at night
+moon:glows at night
+jump:go up high
+sit:rest down
+walk:step step
+play:have fun
+hug:hold tight
+kiss:a little peck
+cry:tears fall
+laugh:ha ha ha
+sing:make songs
+dance:move to music
+draw:make pictures
+cut:use scissors
+glue:stick it
+cake:yummy treat
+milk:white drink
+egg:from a hen
+apple:red fruit
+banana:yellow fruit
+juice:sweet drink
+hat:warm head
+sock:foot cover
+shoe:you wear it
+coat:keeps you warm
+nose:you smell with
+eye:you see with
+ear:you hear with
+hand:you wave with
+leg:you walk with
+and:plus more
+but:changes it
+or:pick one
+if:maybe so
+my:its mine
+your:its yours
+love:feel happy
+house:you live here
+school:you learn here
+teacher:helps you learn
+friend:a playmate
+family:your people
+sister:a girl sibling
+brother:a boy sibling
+baby:a little one
+puppy:a baby dog
+kitten:a baby cat
+rabbit:hops fast
+horse:runs big
+monkey:climbs trees
+tiger:striped cat
+lion:king of cats
+bear:big and furry
+snake:no legs
+frog:jumps wet
+turtle:slow mover
+flower:pretty plant
+grass:green ground
+river:water flows
+hill:small mountain
+road:cars go here
+bridge:over water
+lorry:carries stuff
+plane:flies high
+boat:floats on water
+train:long ride
+green:forest colour
+yellow:sun colour
+purple:grape colour
+orange:fruit colour
+pink:soft colour
+black:night colour
+white:snow colour
+happy:feel good
+sad:feel down
+cross:not happy
+scared:feel afraid
+sleepy:need rest
+hungry:want food
+thirsty:want drink
+fast:go quick
+slow:not fast
+loud:big noise
+quiet:no sound
+hard:not soft
+soft:feels nice
+wet:like water
+dry:not wet
+good:nice
+bad:not nicr
+new:not old
+old:not new
+long:not short
+short:not long
+tall:not short
+small:not big
+look:see it
+find:search for
+give:hand over
+take:grab it
+help:make it better
+wait:hold on
+try:do your best
+catch:grab out of the air
+throw:toss
+kick:hit with foot
+ride:go on it
+swim:move in water
+climb:go up
+slide:go down
+swing:back and forth
+build:make it
+break:smash it
+fix:mend it
+clean:make neat
+dirty:not clean
+paint:use colours
+biscuit:sweet crunchy snack
+sweet:sugary treat
+bread:soft food
+cheese:Jerrys favourite
+pizza:round meal
+shirt:you wear it
+trousers:leg covers
+dress:pretty outfit for girls
+gloves:hand warmers
+mouth:you eat with
+teeth:you chew with
+hair:on your head
+foot:you stand on
+arm:you hug with
+then:after that
+now:this moment in time
+here:this spot
+there:that spot
+adventure:a big trip
+aeroplane:flies far
+alligator:snappy jaws
+amazement:wow feeling
+ambulance:helps fast
+astronaut:space person
+beautiful:very pretty
+binoculars:see far
+bungalow:one floor house
+butterflies:in your tummy
+camouflage:hide well
+caterpillar:crawly bug
+centipede:lots of legs
+chameleon:changes colour
+cheetah:runs fastest
+chimpanzee:funny ape
+chrysalis:bug cocoon
+cobblestone:old road
+compass:shows north
+continent:big land
+creature:weird animal
+cylinder:round shape
+dangerous:not safe
+delicious:yummy taste
+detective:finds clues
+discovery:find new
+dragon:fire breather
+earthworm:digs dirt
+electricity:powers lights
+enormous:super big
+environment:around us
+experiment:try it
+extinct:gone forever
+fabulous:really great
+fantastic:super cool
+festival:lots of fun
+fireworks:bang in sky
+flamingo:pink bird
+fountain:water shoots
+furniture:in your house
+geography:land study
+gorgeous:very nice
+happiness:feel great
+harmonica:mouth music
+hibernate:sleep long
+hurricane:big storm
+iguana:spiky lizard
+imagination:make believe
+impossible:cant do
+incredible:so amazing
+instrument:makes music
+invisible:cant see
+jellyfish:stings sea
+knowledge:what you know
+labyrinth:mazy path
+language:how we talk
+leopard:spotty cat
+librarian:book helper
+locomotive:train puller
+magnificent:big beauty
+marsupial:pouch animal
+medicine:makes better
+meteorite:sky rock
+microscope:see tiny
+migration:birds move
+mysterious:secret thing
+narrative:story time
+navigate:find way
+nocturnal:night awake
+nursery:baby room
+observatory:star watch
+opposite:not same
+orchestra:music group
+ornament:pretty thing
+parachute:float down
+peacock:fancy tail
+penguins:slide on ice
+periscope:look up
+photograph:snap pic
+playground:fun place
+porcupine:spiky pal
+prehistoric:very old
+proudly:feel tall
+puzzle:think hard
+python:long snake
+reflection:in mirror
+reptilian:lizard like
+ridiculous:silly much
+satellite:sky machine
+scorpion:stinger tail
+sculpture:art shape
+skeleton:bones inside
+spectacular:wow show
+squirrel:climbs quick
+telescope:see stars
+treasure:hidden gold
+unbelievable:hard to trust
+volleyball:bump it
+wilderness:wild land
+xylophone:ding music
+vocabulary:word bank for a language
+rigamarole:pointless dilly-dally
+perfunctory:routine
+anchor:holds ship  
+balloon:blows up  
+boots:protect feet  
+bubble:blows air  
+camera:takes photos  
+cupcake:sweet dessert  
+dragonfly:flying insect  
+eggplant:purple vegetable  
+flashlight:light in dark  
+giraffe:long neck animal  
+gloves:keep hands warm  
+hammer:bang with it  
+jacket:wear in cold  
+jelly:soft sweet spread  
+kangaroo:bouncy animal  
+ladder:climb up  
+lantern:light in a jar  
+lighthouse:guides ships  
+pillow:head rest  
+pirate:sails the sea  
+princess:royal girl  
+pumpkin:orange gourd  
+raccoon:masked animal  
+scissors:cuts paper  
+snowman:made of snow  
+spaceship:flies in space  
+teapot:holds hot drink  
+toaster:cooks bread  
+turtle:slow creature  
+umbrella:keeps rain off  
+vase:holds flowers  
+watermelons:big juicy fruit  
+wheel:turns round  
+zebra:striped horse  
+mailbox:letter box  
+astronaut:space explorer  
+truck:big vehicle  
+submarine:underwater boat  
+snail:slow shelled creature  
+sloth:slow moving mammal  
+trumpet:brass musical instrument  
+wallet:holds money  
+snowflake:snow shape  
+microscope:looks at small things  
+tornado:spinning wind  
+waterpark:fun in water  
+thermometer:measures heat  
+parachute:falling protection  
+waffle:sweet breakfast treat  
+octopus:squidward  
+oxygen:what we breathe  
+piano:musical instrument  
+quail:a small bird  
+raccoon:nighttime animal  
+rhinoceros:big horn animal  
+robot:machine friend  
+raincoat:protects from rain  
+moonlight:light from the moon  
+shadow:dark shape  
+mirror:reflects your face  
+waterfall:water falls down  
+volcano:mountain of fire  
+alley:narrow street  
+bat:flies at night  
+bell:rings with sound  
+cactus:spiny desert plant  
+cloud:puffy sky shape  
+continent:huge landmass  
+compass:shows directions  
+corn:yellow grain  
+dragon:breathes fire  
+iguana:green lizard  
+jacket:wear in cold  
+jeep:offroad vehicle  
+jungle:big forest  
+kite:flies in the air  
+lighthouse:guides ships safely  
+melon:juicy fruit  
+map:shows places  
+marbles:round little balls  
+microwave:heats food fast  
+mittens:keeps hands warm  
+moon:shines at night  
+mushroom:grows in the ground  
+octopus:sea creature  
+opera:sung performance  
+pencil:write with  
+pizza:round cheesy food  
+plane:flies in the sky  
+bear:winnie the pooh  
+pumpkin:squash fruit  
+raccoon:nighttime animal  
+rainbow:colourful arc  
+robot:machine that moves  
+school:learn new things  
+spider:has eight legs  
+squid:sea creature  
+submarine:underwater vehicle  
